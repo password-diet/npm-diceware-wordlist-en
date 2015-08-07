@@ -9,5 +9,5 @@ An english wordlist for the diceware password generation method
 
 ## Usage
 
-  var dw_en = require('diceware-wordlist-en');
+  var dw_en = require('diceware-wordlist-en');  
   dw_en['34553'];		# 'jolly'

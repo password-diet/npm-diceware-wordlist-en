@@ -19,7 +19,7 @@ describe('wordlist', function() {
 
   it('should have unique words', function() {
   	var values = _.values(scapegoat);
-  	var unique = _.uniq(unique);
+  	var unique = _.uniq(values);
     expect(values.length).to.equal(_.uniq(values).length);
   });
 });
